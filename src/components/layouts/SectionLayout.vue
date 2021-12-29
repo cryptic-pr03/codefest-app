@@ -1,7 +1,8 @@
 <template>
   <div :class="$style.sectionContainer">
     <h1 :class="[$style.sectionTitle, $style[$mq], tooLong]">{{ title }}</h1>
-    <hr :class="$style.sectionLine" />
+    <hr :class="[$style.sectionLine, $style.line1] " />
+    <hr :class="[$style.sectionLine, $style.line2]" />
     <div :style="contentStyle">
       <slot></slot>
     </div>
@@ -42,6 +43,7 @@ div.sectionContainer {
     $font-size: 64px;
     margin-top: 144px;
     margin-bottom: 0px;
+    line-height : 1.2;
 
     &.lg, &.xl, &.xxl {
       padding-top: 36px;
@@ -71,24 +73,38 @@ div.sectionContainer {
   }
 
   hr.sectionLine {
-    height: 8px;
-    background-color: $vermilion;
     display: block;
-    width: 70%;
     border: none;
-    margin: 0px 0 48px;
-
-    ~/:nth-child(even) hr.sectionLine {
-      margin-right: 30%;
-      border-radius: 10px;
-      background-image: linear-gradient(to left, var(--background-color), $vermilion);
-    }
-
-    ~/:nth-child(odd) hr.sectionLine {
-      margin-left: 30%;
-      border-radius: 10px;
-      background-image: linear-gradient(to right, var(--background-color), $vermilion);
-    }
+    margin: 0px 0 10px;
   }
+
+  hr.line1{
+    background-color: $vermilion;
+    height: 5px;
+    width: 60%;
+    ~/:nth-child(even) hr.line1 {
+      margin-right: 40%;
+    }
+
+    ~/:nth-child(odd) hr.line1 {
+      margin-left: 40%;
+    }
+
+  }
+
+    hr.line2{
+    background-color: $vermilion;
+    margin-bottom:40px;
+    height: 3px;
+    width: 40%;
+    ~/:nth-child(even) hr.line2 {
+      margin-right: 60%;
+    }
+    ~/:nth-child(odd) hr.line2 {
+      margin-left: 60%;
+    }
+
+  }
+
 }
 </style>
