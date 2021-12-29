@@ -58,27 +58,27 @@ export default {
         {
           name: "Prizes worth",
           value: "200,000",
-          image: "assets/Lookback/lb_prize.svg"
+          image: "assets/Lookback/lb_prize_new.svg"
         },
         {
           name: "Time",
           value: "24 Hours",
-          image: "assets/Lookback/time.svg"
+          image: "assets/Lookback/lb_countries_new.svg"
         },
         {
           name: "Participants",
           value: "100+",
-          image: "assets/Lookback/lb_participant.svg"
+          image: "assets/Lookback/lb_participant_new.svg"
         },
         {
           name: "Github repos",
           value: "30+",
-          image: "assets/Lookback/github-repos.svg"
+          image: "assets/Lookback/lb_visitor_new.svg"
         },
         {
           name: "Lines of code",
           value: "100,000+",
-          image: "assets/Lookback/lines-of-code.svg"
+          image: "assets/Lookback/lb_registration_new.svg"
         }
       ],
       testimonials: [

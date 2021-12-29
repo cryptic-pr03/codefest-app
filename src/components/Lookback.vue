@@ -41,8 +41,7 @@ export default {
 .lookback {
 
   .stat {
-    width: 200px;
-    height: 200px;
+    width: 220px;
 
     &:nth-child(odd) {
       &::before {
@@ -52,33 +51,21 @@ export default {
     }
 
     .clip {
-      border-radius: 30px;
-      box-shadow: var(--icon-shadow);
-      background: white;
-      width: 160px;
-      height: 160px;
-      margin-left: auto;
-      margin-right: auto;
+      width: 220px;
       margin-bottom: 25px;
-      padding: 10px;
-      background-color: $vermilion;
     }
 
     .img {
-      width: 70%;
-      height: 70%;
+      width: 90%;
       position: relative;
-      top: 10%;
-      left: 15%;
     }
 
     .name, .value {
       font-family: 'Quicksand';
       font-weight: 700;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 50px;
       text-align: center;
-      color: var(--text-color);
+      color: var(--primary-new);
       line-height: 28px;
       $font-size: 25px;
     }

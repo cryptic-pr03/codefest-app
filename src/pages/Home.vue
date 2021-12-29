@@ -53,27 +53,27 @@ export default {
         {
           name: "Prize Money",
           value: "650,000",
-          image: "assets/Lookback/lb_prize.svg",
+          image: "assets/Lookback/lb_prize_new.svg",
         },
         {
           name: "Countries",
           value: "104",
-          image: "assets/Lookback/lb_countries.svg",
+          image: "assets/Lookback/lb_countries_new.svg",
         },
         {
           name: "Participants",
           value: "29,800",
-          image: "assets/Lookback/lb_participant.svg",
+          image: "assets/Lookback/lb_participant_new.svg",
         },
         {
           name: "Unique Visitors",
           value: "664,300",
-          image: "assets/Lookback/lb_visitor.svg",
+          image: "assets/Lookback/lb_visitor_new.svg",
         },
         {
           name: "Registrations",
           value: "23,000",
-          image: "assets/Lookback/lb_registration.svg",
+          image: "assets/Lookback/lb_registration_new.svg",
         },
       ],
       testimonials: [
